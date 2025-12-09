@@ -3,4 +3,6 @@ if game.PlaceId == 81440632616906 then --- Dig to the earth core
 
     elseif game.PlaceId == 125196404132937  then --- cut a garden
     loadstring(game:HttpGet("https://raw.githubusercontent.com/lez337/Bpx-script-obfu/refs/heads/main/cut-a-garden.lua"))()
+    else 
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/lez337/Bpx-script-obfu/refs/heads/main/basic%20ui"))()
 end
